@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.55.0",
+    "react-select": "^5.10.2"
+  }
+}

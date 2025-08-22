@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Theme variables */
+:root {
+  --background: #ffffff;      /* white background */
+  --foreground: #1f1f1f;      /* dark text */
+  --primary: #f97316;         /* bright orange */
+  --primary-dark: #ea580c;    /* darker orange for hover */
+  --accent: #fff7ed;          /* soft orange background */
+  --section-bg: #f3f4f6;      /* light gray for contrast */
+
+  --font-sans: "Poppins", Arial, Helvetica, sans-serif;
+  --font-mono: monospace;
+}
+
+/* Base body styles */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
