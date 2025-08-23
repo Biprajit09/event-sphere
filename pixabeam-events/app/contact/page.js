@@ -1,3 +1,7 @@
+"use client";
+
+import Link from "next/link";
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white py-12 px-6">
@@ -80,14 +84,14 @@ export default function ContactPage() {
 
         {/* Back to Home Button */}
         <div className="flex justify-center mt-6">
-          <a
-            href="/"
-            className="px-6 py-2 bg-orange-500 text-white font-semibold rounded-full shadow-md hover:bg-orange-600 transition"
-          >
-            ⬅ Back to Home
-          </a>
+          <Link href="/">
+            <button className="px-6 py-2 bg-orange-500 text-white font-semibold rounded-full shadow-md hover:bg-orange-600 transition">
+              ⬅ Back to Home
+            </button>
+          </Link>
         </div>
       </div>
     </div>
   );
 }
+
